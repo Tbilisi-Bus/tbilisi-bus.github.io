@@ -1,0 +1,87 @@
+body {
+    background: #ededed;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    width: 350px;
+    margin: 24px auto;
+    background: #fcfcfc;
+    height: 96px;
+    border-radius: 20px;
+}
+
+.logo {
+    width: 64px;
+    height: 64px;
+    margin: 16px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    background-image: url(assets/icon.png);
+    border-radius: 20px;
+}
+
+.logo-name {
+    margin: auto 0;
+    font-family: sans-serif;
+    font-size: 28px;
+    margin-left: 12px;
+    color: #323232;
+}
+
+.info {
+    color: #323232;
+    font-family: sans-serif;
+    width: 1000px;
+    margin: 24px auto;
+    padding: 24px;
+    border-radius: 12px;
+    background: #fcfcfc;
+}
+
+p {
+    margin-bottom: 8px;
+}
+
+.contact {
+    margin: auto;
+    width: 1000px;
+    background: #fcfcfc;
+    padding: 24px;
+    font-family: sans-serif;
+    font-size: 15px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.privacy {
+    color: #323232;
+    font-family: sans-serif;
+    width: 1000px;
+    margin: 24px auto;
+    padding: 24px;
+    border-radius: 12px;
+    background: #fcfcfc;
+    margin-bottom: 80px;
+}
+
+.privacy-header {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 8px;
+    font-weight: bold;
+}
